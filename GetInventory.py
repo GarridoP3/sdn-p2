@@ -12,7 +12,11 @@ headers = {
 # id = '1215707'
 # devices = dashboard.organizations.getOrganizationDevices(id, total_pages='all')
 
-devices = requests.request('GET', url, headers=headers).json()
+response = requests.request('GET', url, headers=headers)
+devices = response.json()
+excepcion = response.raise_for_status() #En caso de error, genera una excepción
+
+print('¿Ocurrió un error?', excepcion)
 
 #print(devices)
 
