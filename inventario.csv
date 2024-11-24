@@ -1,0 +1,8 @@
+model,name,mac,serial,productType,publicIp,lanIp,status,productType
+MX68W,,4c:c8:a1:01:01:b2,QBSA-4NYF-M67T,,,,appliance
+Z3C-NA,,4c:c8:a1:04:01:9a,QBSA-AY83-4RUF,,,,appliance
+MX100,,4c:c8:a1:02:01:c2,QBSA-FHV5-RNMH,,,,appliance
+MX100,,4c:c8:a1:02:01:c3,QBSA-UTBQ-RSVQ,,,,appliance
+MR52,,4c:c8:a1:0c:01:3d,QBSC-BGYP-VRK9,,,,wireless
+MR52,,4c:c8:a1:0c:01:3e,QBSC-J3J4-Z8B2,,,,wireless
+MR52,,4c:c8:a1:0c:01:3c,QBSC-V234-L4G4,,,,wireless

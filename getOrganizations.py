@@ -1,8 +1,12 @@
-import meraki
+import requests
 
-KEY = '75dd5334bef4d2bc96f26138c163c0a3fa0b5ca6'
+url = "https://api.meraki.com/api/v1/organizations"
 
-dashboard = meraki.DashboardAPI(KEY)
-response = dashboard.organizations.getOrganizations()
+headers = {
+    "Authorization": "Bearer 75dd5334bef4d2bc96f26138c163c0a3fa0b5ca6",
+    "Accept": "application/json"
+}
 
-print(response)
+organizations = requests.request('GET', url, headers=headers)
+
+print(organizations.json())
