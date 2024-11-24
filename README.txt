@@ -1,4 +1,6 @@
 Este script retorna un listado de las organizaciones a las que el usuario (API Key) tiene privilegios.
+Hace una verificación de errores con la funciión raise_for_status()
+Imprime en pantalla las organizaciones
 
 La variable KEY define la API Key de mi organización
 

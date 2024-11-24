@@ -8,5 +8,7 @@ headers = {
 }
 
 organizations = requests.request('GET', url, headers=headers)
+excepcion = organizations.raise_for_status() #En caso de error, genera una excepción
 
-print(organizations.json())
+print('¿Ocurrió un error?', excepcion)
+print('Organizaciones: ', organizations.json())

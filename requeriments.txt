@@ -1,0 +1,4 @@
+Librerias utilizadas
+- requests
+- csv
+- json
